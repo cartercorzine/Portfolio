@@ -6,8 +6,8 @@ import { Github, Mail, ExternalLink, BarChart3, Database, LineChart, BrainCircui
 const YOUR_NAME = "Carter Corzine";
 const TAGLINE = "Statistics & Data Science graduate — building practical, business-focused data solutions.";
 const LOCATION = "San Diego, CA";
-const EMAIL = "your.email@example.com"; // swap to your real email
-const GITHUB = "https://github.com/yourhandle"; // swap to your GitHub
+const EMAIL = "carter.corzine@gmail.com"; // swap to your real email
+const GITHUB = "https://github.com/cartercorzine"; // swap to your GitHub
 const RESUME_URL = "#"; // link to Google Drive PDF or similar
 
 // === EDIT ME: Projects ===
