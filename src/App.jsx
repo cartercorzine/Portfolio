@@ -1,6 +1,7 @@
 
 import { useMemo } from "react";
 import { Github, Mail, ExternalLink, BarChart3, Database, LineChart, BrainCircuit } from "lucide-react";
+import ProjectsGrid from "./components/ProjectsGrid";
 
 // === EDIT ME: Your info ===
 const YOUR_NAME = "Carter Corzine";
@@ -24,11 +25,12 @@ const PROJECTS = [
       "Delivered ordering thresholds + safety-stock calculator",
     ],
     links: {
-      code: "#", // GitHub repo
+      code: "https://github.com/cartercorzine/Time_Series_Bread_Project", // GitHub repo
       demo: "#", // live notebook render or blog
     },
     icon: <LineChart className="w-5 h-5" />,
   },
+  
   {
     title: "Espresso Steam-Wand Quality (Six Sigma DMAIC)",
     blurb:
@@ -52,7 +54,7 @@ const PROJECTS = [
       "Transfer-learned model improved macro AUC by ~0.12",
       "Logged experiments; confusion-matrix driven error analysis",
     ],
-    links: { code: "#", demo: "#" },
+    links: { code: "https://github.com/cartercorzine/Skin-Cancer-Detection", demo: "#" },
     icon: <BrainCircuit className="w-5 h-5" />,
   },
   {
