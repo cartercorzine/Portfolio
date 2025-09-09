@@ -41,7 +41,7 @@ const PROJECTS = [
       "Defined CTQs and rolled-throughput yield",
       "Standardized SOPs; variance down ~30%",
     ],
-    links: { code: "#", demo: "#" },
+    links: { code: "https://github.com/cartercorzine/Espresso-Wand-Project", demo: "#" },
     icon: <BarChart3 className="w-5 h-5" />,
   },
   {
@@ -69,6 +69,19 @@ const PROJECTS = [
     ],
     links: { code: "https://github.com/cartercorzine/Happiness-Predictors", demo: "#" },
     icon: <Database className="w-5 h-5" />,
+  },
+  {
+    title: "Design of Experiments Project",
+    blurb:
+      "Trained CNN baseline and classical ML with transfer learning for multi-class skin lesion classification; compared ROC-AUC across classes.",
+    tags: ["Python", "TensorFlow", "Computer Vision", "ML"],
+    highlights: [
+      "Data augmentation pipeline + class imbalance handling",
+      "Transfer-learned model improved macro AUC by ~0.12",
+      "Logged experiments; confusion-matrix driven error analysis",
+    ],
+    links: { code: "https://github.com/cartercorzine/Design-of-Experiments", demo: "#" },
+    icon: <BrainCircuit className="w-5 h-5" />,
   },
 ];
 
