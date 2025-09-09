@@ -58,16 +58,16 @@ const PROJECTS = [
     icon: <BrainCircuit className="w-5 h-5" />,
   },
   {
-    title: "Bayesian A/B Test Simulator",
+    title: "Happiness Predictors",
     blurb:
-      "Interactive notebook to compare frequentist and Bayesian inference for conversion experiments; posterior updates and decision rules.",
+      "A data science project analyzing global survey data to identify which economic, social, and health factors most strongly predict happiness across countries. Built regression and models to uncover patterns and provide interpretable insights.",
     tags: ["Python", "Bayesian", "A/B Testing", "MCMC"],
     highlights: [
-      "Implemented Beta-Binomial model with posterior sampling",
-      "Expected loss curves to choose ship/hold",
-      "Reusable helper functions + plot utilities",
+      "Collected and cleaned World Happiness Report data",
+      "Explored correlations between GDP, life expectancy, social support, freedom, and corruption perception.",
+      "Identified top predictive features of happiness scores, with visualizations for interpretability.",
     ],
-    links: { code: "#", demo: "#" },
+    links: { code: "https://github.com/cartercorzine/Happiness-Predictors", demo: "#" },
     icon: <Database className="w-5 h-5" />,
   },
 ];
