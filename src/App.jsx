@@ -18,7 +18,7 @@ const PROJECTS = [
     title: "Grocery Bread Sales Forecasting (ARIMA)",
     blurb:
       "Built ARIMA models to forecast weekly demand across bread SKUs, improving on naive baselines; created KPI dashboard and ordering playbook.",
-    tags: ["Python", "ARIMA", "Time Series", "Forecasting"],
+    tags: ["R", "ARIMA", "Time Series", "Forecasting"],
     highlights: [
       "Engineered features (seasonality, promotions) and compared ARIMA vs. ETS",
       "Reduced MAPE ~18% vs. store’s manual method (course project)",
@@ -73,14 +73,14 @@ const PROJECTS = [
   {
     title: "Design of Experiments Project",
     blurb:
-      "Trained CNN baseline and classical ML with transfer learning for multi-class skin lesion classification; compared ROC-AUC across classes.",
-    tags: ["Python", "TensorFlow", "Computer Vision", "ML"],
+      "Designed and executed a $2^3$ factorial experiment to study how paper clip placement (nose, middle, rear) affects flight distance in paper airplanes; applied DOE methods to test factor effects and interactions.",
+    tags: ["R", "DOE", "ANOVA", "Data Visualization"],
     highlights: [
-      "Data augmentation pipeline + class imbalance handling",
-      "Transfer-learned model improved macro AUC by ~0.12",
-      "Logged experiments; confusion-matrix driven error analysis",
+      "Conducted pilot study with replications + power analysis",
+      "Randomized throw order; measured flight distance across 8 conditions",
+      "ANOVA showed significant main effects + interactions, validating aerodynamic impact of mass distribution",
     ],
-    links: { code: "https://github.com/cartercorzine/Design-of-Experiments", demo: "#" },
+    links: { code: "https://github.com/cartercorzine/Design-of-Experiments", demo: "https://github.com/cartercorzine/Design-of-Experiments/blob/main/Paper_Airplane_Factorial_Design.pdf" },
     icon: <BrainCircuit className="w-5 h-5" />,
   },
 ];
