@@ -34,12 +34,12 @@ const PROJECTS = [
   {
     title: "Espresso Steam-Wand Quality (Six Sigma DMAIC)",
     blurb:
-      "Applied DMAIC to stabilize steaming consistency; control charts and CTQs identified special-cause variation and reduced defects.",
-    tags: ["R", "Six Sigma", "SPC", "Control Charts"],
+      "Led a Six Sigma DMAIC project to reduce variation in espresso machine steam-wand diameters. Applied control charts, capability analysis, and root-cause analysis to identify tooling issues and implement improvements.",
+    tags: ["R", "Six Sigma", "SPC", "Control Charts", "DIMAC"],
     highlights: [
-      "Built X̄–R charts; flagged out-of-control points",
-      "Defined CTQs and rolled-throughput yield",
-      "Standardized SOPs; variance down ~30%",
+      "Collected baseline data and built X-bar & R charts for process capability",
+      "Conducted root-cause analysis and operator feedback sessions",
+      "Proposed tooling/material improvements and control plan to maintain gains",
     ],
     links: { code: "https://github.com/cartercorzine/Espresso-Wand-Project", demo: "https://github.com/cartercorzine/Espresso-Wand-Project/blob/main/Final_Project.pdf" },
     icon: <BarChart3 className="w-5 h-5" />,
@@ -61,7 +61,7 @@ const PROJECTS = [
     title: "Happiness Predictors",
     blurb:
       "A data science project analyzing global survey data to identify which economic, social, and health factors most strongly predict happiness across countries. Built regression and models to uncover patterns and provide interpretable insights.",
-    tags: ["Python", "Bayesian", "A/B Testing", "MCMC"],
+    tags: ["R", "Regression", "EDA", "MCMC"],
     highlights: [
       "Collected and cleaned World Happiness Report data",
       "Explored correlations between GDP, life expectancy, social support, freedom, and corruption perception.",
