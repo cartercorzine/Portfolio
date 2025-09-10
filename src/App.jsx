@@ -26,7 +26,7 @@ const PROJECTS = [
     ],
     links: {
       code: "https://github.com/cartercorzine/Time_Series_Bread_Project", // GitHub repo
-      demo: "#", // live notebook render or blog
+      demo: "https://github.com/cartercorzine/Time_Series_Bread_Project/blob/main/Carter%20Corzine-174%20final%20project.pdf", // live notebook render or blog
     },
     icon: <LineChart className="w-5 h-5" />,
   },
@@ -41,7 +41,7 @@ const PROJECTS = [
       "Defined CTQs and rolled-throughput yield",
       "Standardized SOPs; variance down ~30%",
     ],
-    links: { code: "https://github.com/cartercorzine/Espresso-Wand-Project", demo: "#" },
+    links: { code: "https://github.com/cartercorzine/Espresso-Wand-Project", demo: "https://github.com/cartercorzine/Espresso-Wand-Project/blob/main/Final_Project.pdf" },
     icon: <BarChart3 className="w-5 h-5" />,
   },
   {
@@ -67,7 +67,7 @@ const PROJECTS = [
       "Explored correlations between GDP, life expectancy, social support, freedom, and corruption perception.",
       "Identified top predictive features of happiness scores, with visualizations for interpretability.",
     ],
-    links: { code: "https://github.com/cartercorzine/Happiness-Predictors", demo: "#" },
+    links: { code: "https://github.com/cartercorzine/Happiness-Predictors", demo: "https://github.com/cartercorzine/Happiness-Predictors/blob/main/Final_Project.pdf" },
     icon: <Database className="w-5 h-5" />,
   },
   {
