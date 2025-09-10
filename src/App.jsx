@@ -47,14 +47,14 @@ const PROJECTS = [
   {
     title: "Skin-Lesion Image Classification (HAM10000)",
     blurb:
-      "Trained CNN baseline and classical ML with transfer learning for multi-class skin lesion classification; compared ROC-AUC across classes.",
+      "Built deep learning and classical ML models for multi-class skin lesion classification using dermatoscopic images. Applied transfer learning and imbalance handling to improve diagnostic accuracy across 7 classes.",
     tags: ["Python", "TensorFlow", "Computer Vision", "ML"],
     highlights: [
-      "Data augmentation pipeline + class imbalance handling",
-      "Transfer-learned model improved macro AUC by ~0.12",
-      "Logged experiments; confusion-matrix driven error analysis",
+      "Performed EDA on patient metadata + class distributions",
+      "Developed CNN baseline and transfer learning model; tuned with data augmentation",
+      "Improved macro ROC-AUC by mitigating class imbalance and leveraging pre-trained models",
     ],
-    links: { code: "https://github.com/cartercorzine/Skin-Cancer-Detection", demo: "#" },
+    links: { code: "https://github.com/cartercorzine/Skin-Cancer-Detection", demo: "https://github.com/cartercorzine/Skin-Cancer-Detection/blob/main/Skin_Cancer_Detection_Final_Project.ipynb#" },
     icon: <BrainCircuit className="w-5 h-5" />,
   },
   {
