@@ -17,12 +17,12 @@ const PROJECTS = [
   {
     title: "Grocery Bread Sales Forecasting (ARIMA)",
     blurb:
-      "Built ARIMA models to forecast weekly demand across bread SKUs, improving on naive baselines; created KPI dashboard and ordering playbook.",
+      "Built SARIMA models to forecast daily sourdough loaf demand from 764 days of sales data, reducing waste and stock-outs. Incorporated weekly seasonality, log/differencing transformations, and residual diagnostics to improve ordering accuracy.",
     tags: ["R", "ARIMA", "Time Series", "Forecasting"],
     highlights: [
-      "Engineered features (seasonality, promotions) and compared ARIMA vs. ETS",
-      "Reduced MAPE ~18% vs. store’s manual method (course project)",
-      "Delivered ordering thresholds + safety-stock calculator",
+      "Collected and cleaned POS data via OCR + manual validation",
+      "Engineered transformations to stabilize variance and remove weekly cycles",
+      "SARIMA(1,1,1)(0,1,1)[7] achieved RMSE ≈ 5.7 loaves with reliable 28-day forecasts",
     ],
     links: {
       code: "https://github.com/cartercorzine/Time_Series_Bread_Project", // GitHub repo
